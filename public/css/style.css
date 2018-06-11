@@ -1,0 +1,41 @@
+* {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.invoice-title {
+	color: #878180;
+	font-size: 36px;
+	
+}
+.my-name {
+	color: #000;
+	font-size: 30px;
+	font-weight: bold;
+}
+.my-address {
+	width: 100%;
+	margin-bottom: 50px;
+}
+.margin-btm {
+	height: 40px;
+}
+.detials td {
+	border: 1px solid #000;
+}
+.left-float {
+	width: 20%;
+	float: left;
+}
+.right-float {
+	width: 70%;
+	float: right;
+	text-align: right;
+}
+.my-address.table-bordered thead{
+	background: #f1f1f1;
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+	border: 1px solid #000;
+}
+.table>thead:first-child>tr:first-child>th {
+    border-top: 1px solid #000;
+}
